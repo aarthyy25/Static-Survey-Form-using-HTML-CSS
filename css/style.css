@@ -1,0 +1,70 @@
+body{
+    width: 100%;
+}
+.head{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.head p{
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    font-family: calibri;
+    padding: 20px;
+    margin: 0px;
+}
+header img{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+}
+.para{
+    z-index: 1;
+    margin: 30px;
+    padding: 30px;
+    color: white;
+    position: absolute;
+    top: 350px;
+    height: 400px;
+    width: 400px;
+    background-color: none;
+}
+.para h5{
+    text-align: center;
+    color: black;
+    font-family: Arial;
+}
+button{
+    position: relative;
+    left: 100px;
+    text-align: center;
+    color: black;
+    background-color:chartreuse;
+    border: 1px solid black;
+}
+.image{
+    display: flex;
+    position: absolute;
+    top:55rem;
+    left: 15%;
+    right: 15%;
+}
+.image img{
+    margin: 20px;
+    padding: 20px;
+    z-index: -1;
+}
+.image p{
+    position: relative;
+    left: 15px;
+    bottom: 75px;
+    text-align: center;
+    z-index:1;
+    color: black;
+}
